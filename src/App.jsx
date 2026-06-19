@@ -6,6 +6,7 @@ import WelcomePage from './pages/WelcomePage';
 import UserDashboard from './pages/dashboard/UserDashboard';
 import DonationHistory from './pages/donations/DonationHistory';
 import AdminDashboard from './pages/dashboard/AdminDashboard';
+import CaseManagement from './pages/admin/CaseManagement';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/dashboard" element={<UserDashboard />} />
           <Route path="/donation-history" element={<DonationHistory />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/admin/cases" element={<CaseManagement />} />
         </Routes>
       </div>
     </Router>
