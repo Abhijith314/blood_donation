@@ -8,6 +8,7 @@ import DonationHistory from './pages/donations/DonationHistory';
 import AdminDashboard from './pages/dashboard/AdminDashboard';
 import CaseManagement from './pages/admin/CaseManagement';
 import UserManagement from './pages/admin/UserManagement';
+import AddDonations from './pages/donations/AddDonations';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin/cases" element={<CaseManagement />} />
           <Route path="/admin/users" element={<UserManagement />} />
+          <Route path="/add-donation" element={<AddDonations />} />
         </Routes>
       </div>
     </Router>
